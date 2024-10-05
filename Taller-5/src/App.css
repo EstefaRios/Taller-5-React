@@ -1,0 +1,31 @@
+.products-section {
+  max-width: 700px; /* Ancho máximo */
+  margin: 20px 0; /* Espaciado superior e inferior */
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 12px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px; /* Padding para mayor espacio interno */
+  text-align: left; /* Alineación izquierda */
+}
+
+h2 {
+  color: #000; /* Color negro */
+  margin-bottom: 10px; /* Espaciado inferior */
+}
+
+p {
+  color: #000; /* Color negro */
+  margin-bottom: 20px; /* Espaciado inferior */
+}
+
+@media (max-width: 768px) {
+  .products-section {
+      padding: 20px; /* Ajustar padding en móviles */
+  }
+  h2 {
+      font-size: 2rem; /* Tamaño de fuente en móviles */
+  }
+  p {
+      font-size: 0.9rem; /* Tamaño de fuente en móviles */
+  }
+}

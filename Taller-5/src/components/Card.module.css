@@ -1,0 +1,37 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 20px; /* Espaciado externo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 12px; /* Espacio debajo del título */
+    font-weight: bold; /* Esto hace que el título sea en negrita */
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 16px; /* Espacio debajo de la descripción */
+}
+
+.button {
+    padding: 12px 24px; /* Tamaño del botón */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Margen superior para espacio */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el mouse */
+}
